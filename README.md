@@ -14,9 +14,6 @@ This project demonstrates data analysis on an **exercise dataset** using Python.
 4.	The dataset was successfully cleaned and saved for future use
 
 ________________________________________
-📂 Project Files
-1.	Exercise_Data_With_ID.xlsx: Original dataset.
-2.	Cleaned_Exercise_Data.xlsx: Cleaned dataset saved after processing.
 
 ## 📋 Steps in the Analysis
 
@@ -110,3 +107,6 @@ Step 6: Save the Cleaned Dataset
 df.to_excel("Cleaned_Exercise_Data.xlsx", index=False)
 print("Cleaned dataset saved to 'Cleaned_Exercise_Data.xlsx'")
 ```
+📂 Project Files
+1.	Exercise_Data_With_ID.xlsx: Original dataset.
+2.	Cleaned_Exercise_Data.xlsx: Cleaned dataset saved after processing.
