@@ -47,7 +47,7 @@ print("Mean Calories Burned:", df["Calories"].mean())
 print(df.groupby("Duration")["Calories"].mean())
 ```
 ### Data Visualization
-Line Plot: Calories Burned Over Sessions
+## Line Plot: Calories Burned Over SessionsTrends in calories burned across sessions.
 ```python
 plt.figure(figsize=(10, 5))
 plt.plot(df["ID"], df["Calories"], label="Calories Burned")
@@ -58,7 +58,8 @@ plt.legend()
 plt.show()
 ```
    ![image](https://github.com/user-attachments/assets/169dbce9-4f3b-41e9-888a-1d40ecefc846)
-Histogram: Pulse Distribution
+## Histogram: Pulse Distribution
+Distribution of pulse rates.
 ```python
 plt.figure(figsize=(8, 5))
 plt.hist(df["Pulse"], bins=20, color="skyblue", edgecolor="black")
@@ -68,7 +69,8 @@ plt.ylabel("Frequency")
 plt.show()
 ```
    ![image](https://github.com/user-attachments/assets/2884db7b-8a78-4aca-a093-54cf067eb636)
-Scatter Plot: Pulse vs Calories
+## Scatter Plot: Pulse vs Calories
+Relationship between pulse and calories burned.
 ```python
 plt.figure(figsize=(8, 5))
 plt.scatter(df["Pulse"], df["Calories"], color="green", alpha=0.5)
@@ -78,7 +80,8 @@ plt.ylabel("Calories")
 plt.show()
 ```
    ![image](https://github.com/user-attachments/assets/a8b0ea78-e071-455b-9c26-da184bda1a32)
-Bar Plot: Average Calories by Duration
+## Bar Plot: Average Calories by Duration
+Average calories burned based on session duration.
 ```python
 df.groupby("Duration")["Calories"].mean().plot(kind="bar", color="orange")
 plt.title("Average Calories by Duration")
