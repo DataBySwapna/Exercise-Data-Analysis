@@ -31,23 +31,6 @@ df = pd.read_excel(file_path)
 
 # Display the first few rows
 print(df.head())
-
-
-
-
-
-
-### Load the Dataset
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load the dataset
-file_path = "Exercise_Data_With_ID.xlsx"
-df = pd.read_excel(file_path)
-
-# Display the first few rows
-print(df.head())
 ```
 ### Explore the Dataset
 # Get dataset info and summary statistics
