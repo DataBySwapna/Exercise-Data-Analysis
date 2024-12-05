@@ -76,7 +76,7 @@ plt.xlabel("Pulse")
 plt.ylabel("Frequency")
 plt.show()
 ```
-    ![image](https://github.com/user-attachments/assets/e2906956-271e-4bac-983f-d73ed7f9b513)
+    ![image](https://github.com/user-attachments/assets/2884db7b-8a78-4aca-a093-54cf067eb636)        
 
 Scatter Plot: Pulse vs Calories
 ```python
