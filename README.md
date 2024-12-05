@@ -1,4 +1,5 @@
 # 🏋️ Exercise Data Analysis
+![image](https://github.com/user-attachments/assets/2e2aa2ee-5bd4-42a5-b1f3-e0c726fa0a5e)
 This project demonstrates data analysis on an **exercise dataset** using Python. The goal is to clean the data, perform descriptive analysis, and visualize insights to better understand the relationship between variables like pulse, calories burned, and session durations.
 ---
 ## 🛠️ Tools Used
