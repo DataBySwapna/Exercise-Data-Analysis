@@ -1,5 +1,4 @@
 # 🏋️ Exercise Data Analysis
-
 This project demonstrates data analysis on an **exercise dataset** using Python. The goal is to clean the data, perform descriptive analysis, and visualize insights to better understand the relationship between variables like pulse, calories burned, and session durations.
 ---
 ## 🛠️ Tools Used
@@ -12,20 +11,14 @@ This project demonstrates data analysis on an **exercise dataset** using Python.
 2.	Pulse data was cleaned to remove missing values.
 3.	Relationships between Pulse and Calories were visualized, showing a positive correlation.
 4.	The dataset was successfully cleaned and saved for future use
-
 ________________________________________
-
 ## 📋 Steps in the Analysis
-
-### Step 1: Load the Dataset
+### Load the Dataset
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# Load the dataset
 file_path = "Exercise_Data_With_ID.xlsx"
 df = pd.read_excel(file_path)
-
 # Display the first few rows
 print(df.head())
 ```
@@ -56,7 +49,6 @@ print(df.groupby("Duration")["Calories"].mean())
 ### Data Visualization
 Line Plot: Calories Burned Over Sessions
 ```python
-
 plt.figure(figsize=(10, 5))
 plt.plot(df["ID"], df["Calories"], label="Calories Burned")
 plt.title("Calories Burned Over Sessions")
@@ -68,7 +60,6 @@ plt.show()
    ![image](https://github.com/user-attachments/assets/169dbce9-4f3b-41e9-888a-1d40ecefc846)
 Histogram: Pulse Distribution
 ```python
-
 plt.figure(figsize=(8, 5))
 plt.hist(df["Pulse"], bins=20, color="skyblue", edgecolor="black")
 plt.title("Pulse Distribution")
@@ -77,11 +68,8 @@ plt.ylabel("Frequency")
 plt.show()
 ```
    ![image](https://github.com/user-attachments/assets/2884db7b-8a78-4aca-a093-54cf067eb636)
-
-
 Scatter Plot: Pulse vs Calories
 ```python
-
 plt.figure(figsize=(8, 5))
 plt.scatter(df["Pulse"], df["Calories"], color="green", alpha=0.5)
 plt.title("Pulse vs Calories")
@@ -90,22 +78,16 @@ plt.ylabel("Calories")
 plt.show()
 ```
    ![image](https://github.com/user-attachments/assets/a8b0ea78-e071-455b-9c26-da184bda1a32)
-
 Bar Plot: Average Calories by Duration
 ```python
-
 df.groupby("Duration")["Calories"].mean().plot(kind="bar", color="orange")
 plt.title("Average Calories by Duration")
 plt.xlabel("Duration (minutes)")
 plt.ylabel("Average Calories")
 plt.show()
 ```
-
    ![image](https://github.com/user-attachments/assets/c13612c5-ab2d-4217-93f6-05bc2668c6ec)
-
-
-
-Step 6: Save the Cleaned Dataset
+### Save the Cleaned Dataset
 ```python
 # Save the cleaned dataset to a new Excel file
 df.to_excel("Cleaned_Exercise_Data.xlsx", index=False)
