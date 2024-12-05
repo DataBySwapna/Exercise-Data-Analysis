@@ -1,14 +1,12 @@
 # 🏋️ Exercise Data Analysis
 
 This project demonstrates data analysis on an **exercise dataset** using Python. The goal is to clean the data, perform descriptive analysis, and visualize insights to better understand the relationship between variables like pulse, calories burned, and session durations.
-
 ---
-
 ## 🛠️ Tools Used
 - **Python**: Programming language for data analysis.
 - **Pandas**: For data manipulation and cleaning.
 - **Matplotlib**: For data visualization.
-
+---
 🎯 Key Insights
 1.	The average calories burned per session were calculated.
 2.	Pulse data was cleaned to remove missing values.
@@ -91,8 +89,8 @@ plt.xlabel("Session ID")
 plt.ylabel("Calories")
 plt.legend()
 plt.show()
-```                ![image](https://github.com/user-attachments/assets/169dbce9-4f3b-41e9-888a-1d40ecefc846)
-
+```
+   ![image](https://github.com/user-attachments/assets/169dbce9-4f3b-41e9-888a-1d40ecefc846)
 Histogram: Pulse Distribution
 ```python
 
@@ -103,6 +101,8 @@ plt.xlabel("Pulse")
 plt.ylabel("Frequency")
 plt.show()
 ```
+    ![image](https://github.com/user-attachments/assets/e2906956-271e-4bac-983f-d73ed7f9b513)
+
 Scatter Plot: Pulse vs Calories
 ```python
 
@@ -113,6 +113,8 @@ plt.xlabel("Pulse")
 plt.ylabel("Calories")
 plt.show()
 ```
+    ![image](https://github.com/user-attachments/assets/a8b0ea78-e071-455b-9c26-da184bda1a32)
+
 Bar Plot: Average Calories by Duration
 ```python
 
@@ -122,6 +124,8 @@ plt.xlabel("Duration (minutes)")
 plt.ylabel("Average Calories")
 plt.show()
 ```
+    ![image](https://github.com/user-attachments/assets/c13612c5-ab2d-4217-93f6-05bc2668c6ec)
+
 Step 6: Save the Cleaned Dataset
 ```python
 # Save the cleaned dataset to a new Excel file
