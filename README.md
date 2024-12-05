@@ -76,7 +76,8 @@ plt.xlabel("Pulse")
 plt.ylabel("Frequency")
 plt.show()
 ```
-    ![image](https://github.com/user-attachments/assets/2884db7b-8a78-4aca-a093-54cf067eb636)        
+   ![image](https://github.com/user-attachments/assets/2884db7b-8a78-4aca-a093-54cf067eb636)
+
 
 Scatter Plot: Pulse vs Calories
 ```python
@@ -88,7 +89,7 @@ plt.xlabel("Pulse")
 plt.ylabel("Calories")
 plt.show()
 ```
-    ![image](https://github.com/user-attachments/assets/a8b0ea78-e071-455b-9c26-da184bda1a32)
+   ![image](https://github.com/user-attachments/assets/a8b0ea78-e071-455b-9c26-da184bda1a32)
 
 Bar Plot: Average Calories by Duration
 ```python
@@ -99,7 +100,10 @@ plt.xlabel("Duration (minutes)")
 plt.ylabel("Average Calories")
 plt.show()
 ```
-    ![image](https://github.com/user-attachments/assets/c13612c5-ab2d-4217-93f6-05bc2668c6ec)
+
+   ![image](https://github.com/user-attachments/assets/c13612c5-ab2d-4217-93f6-05bc2668c6ec)
+
+
 
 Step 6: Save the Cleaned Dataset
 ```python
