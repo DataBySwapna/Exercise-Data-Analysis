@@ -11,13 +11,8 @@ This project demonstrates data analysis on an **exercise dataset** using Python.
 1.	The average calories burned per session were calculated.
 2.	Pulse data was cleaned to remove missing values.
 3.	Relationships between Pulse and Calories were visualized, showing a positive correlation.
-4.	The dataset was successfully cleaned and saved for future use.
-________________________________________
-📊 Visualizations
-1.	Line Plot: Trends in calories burned across sessions.
-2.	Histogram: Distribution of pulse rates.
-3.	Scatter Plot: Relationship between pulse and calories burned.
-4.	Bar Plot: Average calories burned based on session duration.
+4.	The dataset was successfully cleaned and saved for future use
+
 ________________________________________
 📂 Project Files
 1.	Exercise_Data_With_ID.xlsx: Original dataset.
