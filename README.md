@@ -91,7 +91,7 @@ plt.xlabel("Session ID")
 plt.ylabel("Calories")
 plt.legend()
 plt.show()
-``` ![image](https://github.com/user-attachments/assets/169dbce9-4f3b-41e9-888a-1d40ecefc846)
+```                ![image](https://github.com/user-attachments/assets/169dbce9-4f3b-41e9-888a-1d40ecefc846)
 
 Histogram: Pulse Distribution
 ```python
